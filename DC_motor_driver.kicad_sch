@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b563b147-bbde-4f4c-8b52-ad379dd21b78)
+
+  (paper "A4")
+
+  (title_block
+    (title "MAIN")
+    (date "2024-01-06")
+    (rev "0.1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 19.05 19.05) (end 144.145 160.655)
+    (stroke (width 1) (type dash) (color 0 194 194 0.5))
+    (fill (type none))
+    (uuid b706948b-14e3-4a61-8fc2-a5ac956171b6)
+  )
+  (rectangle (start 152.4 19.05) (end 273.05 158.75)
+    (stroke (width 1) (type dash) (color 132 0 0 0.5))
+    (fill (type none))
+    (uuid d98e9d91-c51e-4010-9b2a-aa95967d64b2)
+  )
+
+  (sheet (at 184.785 35.56) (size 57.785 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7359b242-08e3-4287-9459-8961d8b5fa57)
+    (property "Sheetname" "HIGH_POWER" (at 184.785 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HIGH_POWER.kicad_sch" (at 184.785 59.6396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DC_motor_driver"
+        (path "/b563b147-bbde-4f4c-8b52-ad379dd21b78" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 191.135 75.565) (size 38.1 51.435) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a2152ee0-6950-4a6b-b76a-7014d127a95a)
+    (property "Sheetname" "H_BRIDGE" (at 191.135 74.8534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "H_BRIDGE.kicad_sch" (at 191.135 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DC_motor_driver"
+        (path "/b563b147-bbde-4f4c-8b52-ad379dd21b78" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 121.92 85.725) (size 17.78 26.035) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fbfbcb3e-39d4-4d8c-8346-fd578c8d0dcf)
+    (property "Sheetname" "MCU" (at 121.92 85.0134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 121.92 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DC_motor_driver"
+        (path "/b563b147-bbde-4f4c-8b52-ad379dd21b78" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 53.975 50.8) (size 28.575 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fe67aee6-5a08-4edd-8910-438bcd7bc801)
+    (property "Sheetname" "LOW_POWER" (at 53.975 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LOW_POWER.kicad_sch" (at 53.975 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DC_motor_driver"
+        (path "/b563b147-bbde-4f4c-8b52-ad379dd21b78" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
